@@ -5,6 +5,7 @@ import {
   InfoObject,
   ExternalDocumentationObject,
   SchemasObject,
+  SchemaObject,
   SecurityRequirementObject,
   ComponentsObject,
   Server,
@@ -46,7 +47,7 @@ declare module 'fastify' {
     /**
      * Media types route consumes
      */
-    consumes?: Array<String>;
+    consumes?: Array<String | {type: String, schema: SchemaObject}>;
     /**
      * Media types route produces
      */
@@ -72,7 +73,7 @@ declare namespace fastifyOAS {
       | Array<SecurityRequirementObject>
       | Array<{[securityDefinitionName: string]: Array<String>}>;
     servers?: Array<Server>;
-    componetns?: ComponentsObject;
+    components?: ComponentsObject;
     securityDefinitions?: {
       [securityDefinitionName: string]: Security;
     };

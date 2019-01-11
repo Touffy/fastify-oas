@@ -11,7 +11,7 @@
 ### Properties
 
 * [basePath](fastifyoas.openapispec.md#basepath)
-* [componetns](fastifyoas.openapispec.md#componetns)
+* [components](fastifyoas.openapispec.md#components)
 * [consumes](fastifyoas.openapispec.md#consumes)
 * [externalDocs](fastifyoas.openapispec.md#externaldocs)
 * [host](fastifyoas.openapispec.md#host)
@@ -34,16 +34,16 @@
 
 **● basePath**: *`String`*
 
-*Defined in lib/index.d.ts:66*
+*Defined in [lib/index.d.ts:67](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L67)*
 
 ___
-<a id="componetns"></a>
+<a id="components"></a>
 
-### `<Optional>` componetns
+### `<Optional>` components
 
-**● componetns**: *[ComponentsObject](componentsobject.md)*
+**● components**: *[ComponentsObject](componentsobject.md)*
 
-*Defined in lib/index.d.ts:75*
+*Defined in [lib/index.d.ts:76](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L76)*
 
 ___
 <a id="consumes"></a>
@@ -52,7 +52,7 @@ ___
 
 **● consumes**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:69*
+*Defined in [lib/index.d.ts:70](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L70)*
 
 ___
 <a id="externaldocs"></a>
@@ -61,7 +61,7 @@ ___
 
 **● externalDocs**: *[ExternalDocumentationObject](externaldocumentationobject.md) | [ExternalDocs](externaldocs.md)*
 
-*Defined in lib/index.d.ts:64*
+*Defined in [lib/index.d.ts:65](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L65)*
 
 ___
 <a id="host"></a>
@@ -70,7 +70,7 @@ ___
 
 **● host**: *`String`*
 
-*Defined in lib/index.d.ts:65*
+*Defined in [lib/index.d.ts:66](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L66)*
 
 ___
 <a id="info"></a>
@@ -79,7 +79,7 @@ ___
 
 **● info**: *[InfoObject](infoobject.md) | [Info](info.md)*
 
-*Defined in lib/index.d.ts:63*
+*Defined in [lib/index.d.ts:64](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L64)*
 
 ___
 <a id="produces"></a>
@@ -88,7 +88,7 @@ ___
 
 **● produces**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:70*
+*Defined in [lib/index.d.ts:71](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L71)*
 
 ___
 <a id="schemes"></a>
@@ -97,7 +97,7 @@ ___
 
 **● schemes**: *[SchemasObject](schemasobject.md) | `Array`<`String`>*
 
-*Defined in lib/index.d.ts:68*
+*Defined in [lib/index.d.ts:69](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L69)*
 
 ___
 <a id="security"></a>
@@ -106,7 +106,7 @@ ___
 
 **● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)> | `Array`<`object`>*
 
-*Defined in lib/index.d.ts:71*
+*Defined in [lib/index.d.ts:72](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L72)*
 
 ___
 <a id="securitydefinitions"></a>
@@ -115,7 +115,7 @@ ___
 
 **● securityDefinitions**: *`object`*
 
-*Defined in lib/index.d.ts:76*
+*Defined in [lib/index.d.ts:77](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L77)*
 
 #### Type declaration
 
@@ -128,7 +128,7 @@ ___
 
 **● servers**: *`Array`<[Server](../classes/server.md)>*
 
-*Defined in lib/index.d.ts:74*
+*Defined in [lib/index.d.ts:75](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L75)*
 
 ___
 <a id="tags"></a>
@@ -137,7 +137,7 @@ ___
 
 **● tags**: *`Array`<[TagObject](tagobject.md)> | `Array`<[Tag](tag.md)>*
 
-*Defined in lib/index.d.ts:79*
+*Defined in [lib/index.d.ts:80](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L80)*
 
 ___
 <a id="x_taggroups"></a>
@@ -146,7 +146,7 @@ ___
 
 **● x-tagGroups**: *`String`*
 
-*Defined in lib/index.d.ts:67*
+*Defined in [lib/index.d.ts:68](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L68)*
 
 ___
 

@@ -26,9 +26,9 @@
 
 ### `<Optional>` consumes
 
-**● consumes**: *`Array`<`String`>*
+**● consumes**: *`Array`<`String` | `object`>*
 
-*Defined in lib/index.d.ts:49*
+*Defined in [lib/index.d.ts:50](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L50)*
 
 Media types route consumes
 
@@ -39,7 +39,7 @@ ___
 
 **● description**: *`String`*
 
-*Defined in lib/index.d.ts:37*
+*Defined in [lib/index.d.ts:38](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L38)*
 
 Route description
 
@@ -50,7 +50,7 @@ ___
 
 **● hide**: *`Boolean`*
 
-*Defined in lib/index.d.ts:33*
+*Defined in [lib/index.d.ts:34](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L34)*
 
 Hides route from result OpenAPI document
 *__default__*: false
@@ -62,7 +62,7 @@ ___
 
 **● produces**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:53*
+*Defined in [lib/index.d.ts:54](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L54)*
 
 Media types route produces
 
@@ -73,7 +73,7 @@ ___
 
 **● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)>*
 
-*Defined in lib/index.d.ts:57*
+*Defined in [lib/index.d.ts:58](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L58)*
 
 OpenAPI security definitions
 
@@ -84,7 +84,7 @@ ___
 
 **● summary**: *`String`*
 
-*Defined in lib/index.d.ts:41*
+*Defined in [lib/index.d.ts:42](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L42)*
 
 Route summary
 
@@ -95,7 +95,7 @@ ___
 
 **● tags**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:45*
+*Defined in [lib/index.d.ts:46](https://github.com/Touffy/fastify-oas/blob/49c3b81/lib/index.d.ts#L46)*
 
 Route tags
 
